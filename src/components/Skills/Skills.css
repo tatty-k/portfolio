@@ -1,0 +1,22 @@
+.Skills-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+.Skills-outer-container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.Skills-title{
+    font-size:2.3rem;
+    margin-bottom: 3rem;
+}
+
+.Skills-list{
+    list-style-type: none;
+}
+

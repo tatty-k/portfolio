@@ -1,0 +1,38 @@
+.NavBar-container {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.NavBar-name {
+    font-size: 2.3rem;
+    margin-top: 2.5rem;
+    /* font-family: Poiret One; */
+}
+
+.NavBar-title {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.NavBar-contact-container{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.NavBar-link-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-top: 3rem; 
+    align-content: space-around; 
+}
+
+.NavBar-link{
+    text-decoration: none;
+    color: black; 
+    margin-top: 4rem;
+}
+
+.NavBar-link:hover{
+    color: #E87465; 
+}
