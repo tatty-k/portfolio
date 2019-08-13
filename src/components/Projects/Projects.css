@@ -1,8 +1,13 @@
-.Projects-container{
+.Projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Project-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 10rem;
+    margin: 3rem 10rem;
     font-family: 'Verdana';
 }
 
@@ -23,6 +28,10 @@
     font-size: 2rem;
     font-weight: bold;
     margin-top: 5rem;
+}
+
+.Projects-info-containter{
+    margin-top: 2rem;
 }
 
 .Projects-info-title{
@@ -60,4 +69,8 @@
 
 .Projects-container .rec-landing{
     border: solid black 0.3rem;
+}
+
+#warmly-demo{
+    margin: 0 auto;
 }

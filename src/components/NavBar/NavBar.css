@@ -1,7 +1,13 @@
+.NavBar-outer-container{
+    display: block;
+}
+
 .NavBar-container {
     display: grid;
     grid-template-rows: 1fr 2fr;
     background: rgba(0, 0, 0, 0.43);
+    position: sticky;
+    top: 0;
 }
 
 .NavBar-top-container{
@@ -10,7 +16,7 @@
 
 .NavBar-name {
     font-size: 2.3rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
     color: #97D6CB;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
@@ -22,6 +28,11 @@
     color: #97D6CB;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
+}
+
+.NavBar-email{
+    color: black;
+    margin-top: 0.5rem;
 }
 
 .NavBar-contact-container{
@@ -48,15 +59,15 @@
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    margin-top: 5rem; 
     align-content: space-around; 
     font-family: 'Verdana';
+    margin-top: 1rem;
 }
 
 .NavBar-link{
     text-decoration: none;
     color: black; 
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .NavBar-link:hover{
