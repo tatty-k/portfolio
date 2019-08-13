@@ -1,0 +1,63 @@
+.Projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10rem;
+    font-family: 'Verdana';
+}
+
+.Projects-col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Projects-col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.Projects-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+
+.Projects-info-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Projects-info-description{
+    font-size: 1.2rem;
+    margin-bottom: 1.1rem;
+}
+
+.Projects-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 6rem;
+}
+
+.Projects-buttons{
+    text-decoration: none;
+    color: black;
+    background:  rgba(0, 0, 0, 0.40);
+    padding: 0.7rem 1.3rem;
+}
+
+.Projects-container #source{
+    margin: 0 5.5rem;
+}
+
+.Projects-container .rec-recs{
+    margin-top: 3rem;
+    border: solid black 0.3rem;
+}
+
+.Projects-container .rec-landing{
+    border: solid black 0.3rem;
+}

@@ -10,9 +10,9 @@ const NavBar = () => {
                 <div className="NavBar-title">Web Developer</div>
 
                 <div className="NavBar-contact-container">
-                    <Link className="NavBar-email">email</Link>
-                    <Link className="NavBar-github">github</Link>
-                    <Link className="NavBar-linkedin">linkedIn</Link>
+                    <Link className="NavBar-contact">email</Link>
+                    <Link className="NavBar-contact">github</Link>
+                    <Link className="NavBar-contact">linkedIn</Link>
                 </div>
             </div>
 

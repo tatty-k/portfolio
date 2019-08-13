@@ -1,30 +1,56 @@
 .NavBar-container {
     display: grid;
     grid-template-rows: 1fr 2fr;
+    background: rgba(0, 0, 0, 0.43);
+}
+
+.NavBar-top-container{
+    margin: 1rem;
 }
 
 .NavBar-name {
     font-size: 2.3rem;
-    margin-top: 2.5rem;
-    /* font-family: Poiret One; */
+    margin-top: 3rem;
+    color: #97D6CB;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
 
 .NavBar-title {
     font-size: 1.7rem;
     margin-top: 1rem;
+    color: #97D6CB;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
 
 .NavBar-contact-container{
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Verdana';
+}
+
+.NavBar-contact{
+    text-decoration: none;
+    color: black;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+}
+
+.NavBar-contact:hover{
+    color:  #97D6CB;
 }
 
 .NavBar-link-container {
     display: flex;
     flex-direction: column;
-    font-size: 1.2rem;
-    margin-top: 3rem; 
+    font-size: 1.5rem;
+    margin-top: 5rem; 
     align-content: space-around; 
+    font-family: 'Verdana';
 }
 
 .NavBar-link{
@@ -34,5 +60,5 @@
 }
 
 .NavBar-link:hover{
-    color: #E87465; 
+    color:  #97D6CB;
 }

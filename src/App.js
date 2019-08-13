@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
+import './images/background.png'
 
 import './App.css';
 
