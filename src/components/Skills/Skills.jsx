@@ -8,7 +8,7 @@ const Skills = () => {
             <div className="Skills-outer-container">
 
                 <ul className="Skills-list">
-                    <li className="Skills-list-title">Language</li>
+                    <li className="Skills-list-title">Languages</li>
                     <li>Python</li>
                     <li>JavaScript</li>
                     <li>CSS</li>
