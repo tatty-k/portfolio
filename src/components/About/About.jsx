@@ -10,7 +10,7 @@ const About = () => {
 
                 <div className="About-description">
                 Former Honey bee researcher turned science teacher turned 
-                Full Stack Developer. Passionate about problem solving and 
+                Software Engineer. Passionate about problem solving and 
                 skilled in analyzing data, building relationships and 
                 collaboration.
                 </div>
