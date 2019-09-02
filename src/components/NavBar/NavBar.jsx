@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className="NavBar-container">
                 <div className="NavBar-top-container">
                     <div className="NavBar-name">TATANYA KLASS</div>
-                    <div className="NavBar-title">Web Developer</div>
+                    <div className="NavBar-title">Software Engineer</div>
                     <div className="NavBar-email">tattyklass@gmail.com</div>
 
                     <div className="NavBar-contact-container">
