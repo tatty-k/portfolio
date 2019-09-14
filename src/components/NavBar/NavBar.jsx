@@ -18,8 +18,8 @@ const NavBar = () => {
                 </div>
 
                 <div className="NavBar-link-container">
-                    <Link className="NavBar-link" to={'/'}>About</Link>
-                    <Link className="NavBar-link" to={'/projects'}>Projects</Link>
+                    <Link className="NavBar-link" to={'/about'}>About</Link>
+                    <Link className="NavBar-link" to={'/'}>Projects</Link>
                     <Link className="NavBar-link" to={'/skills'}>Skills</Link>
                 </div>
             </div>

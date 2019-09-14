@@ -9,7 +9,7 @@ const About = () => {
                 <div className="About-location">Location:  San Francisco Bay Area</div> 
 
                 <div className="About-description">
-                Former Honey bee researcher turned science teacher turned 
+                Former honey bee researcher turned science teacher turned 
                 Software Engineer. Passionate about problem solving and 
                 skilled in analyzing data, building relationships and 
                 collaboration.
